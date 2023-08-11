@@ -85,13 +85,22 @@ Once a project has been selected, navigate to the Vertex AI Workbench (either by
 
 A virtual machine is exactly what it sounds like.  When creating a VM, we are allocating computing resources into a contained environment where we can perform whatever task we need to do.  In GCP, we can either create VM's manually through Compute Engine or we can create them automatically through other processes.  We will now create a new VM for our modules through Vertex AI.
 
-Use the following [instructions](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md) to set up your VM in VertexAI.  Our notebooks include a notebook that uses R code, so make sure you are using the 'R' framework (R 4.2 at the time of this writing). You can then choose a name for your virtual machine (within GCP's naming rules) and preferably choose a server location closest to you. Ignore the advanced options for now, and a default virtual machine will be created. A default machine has 4 vCPUS and 15GB RAM.
+In your Vertex AI Workbench, click Create New. Make sure User-Managed Notebooks is highlighted, as shown in the screenshot below. 
+
+![Create New user managed notebook](images/Create_new_notebook.png)
+
+In the new instance window, scroll down and select Advanced Options
+
+![Select Advanced Options](images/Advanced_options.png)
+
+Our notebooks include a notebook that uses R code, so make sure you are using the Debian 10 operating system and 'R' framework (R 4.2 at the time of this writing) in the Environment tab. You can then choose a name for your virtual machine (within GCP's naming rules) and preferably choose a server location closest to you. 
+
+Make sure to click the Enable Idle Shutdown button in the Machine type tab as shown in the screenshot below. Finally, select the appropriate hardware in the Machine type tab. A default machine of 4 vCPUS and 15GB RAM is enough. Click Create.
+
+![Enable Idle Shutdown](images/Enable_auto_shutdown.png)
 
 Creating a machine may take a few minutes to finish.
 
-![Customize notebook](images/Customize-notebook.png)
-
-![Create R notebook](images/Create-R-notebook.png)
 
 
 ### Starting Your Virtual Machine
