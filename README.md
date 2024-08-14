@@ -72,7 +72,7 @@ Jupyter Notebooks are run through your browser and have the file extension *ipyn
 
 The below steps guide you through setting up a virtual machine on Google Cloud Platform, downloading the module files, and launching the notebooks. You will need a Google account and access to a Google Cloud Platform Project.
 
-Once you have these, you can begin by first navigating to https://console.cloud.google.com/ and logging in with your credentials. Use the following [instructions](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/open_GCP_project.md) to open a GCP project.
+Once you have these, you can begin by first navigating to https://console.cloud.google.com/ and logging in with your credentials. Use the following [instructions](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/open_project_intramural.md) to open a GCP project.
 
 
 ## Creating a user managed notebook 
