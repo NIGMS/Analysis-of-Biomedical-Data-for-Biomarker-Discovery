@@ -1,0 +1,56 @@
+[
+    {
+        "question": "You are performing exploratory analysis on data from a mouse experiment.  You are interested in determining if a particular drug treatment has an effect on the mice and you hypothesize that there is a gender effect.  The mice are kept in four separate cages.  Because of time constraints, you take samples from the mice in two cages on Tuesday evening and from the other mice on Wednesday morning.  Your collaborator in another city performs the same experiment with the same protocol and sends you their results.  Which of the following factors may introduce a batch effect into your results?",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Gender",
+                "correct": false,
+                "feedback": "Incorrect.  Gender may be introducing variability into your results, but this variability is relevant to your hypothesis.  Even if it's not, it would be a biologically-relevant confounding variable and not a batch effect."
+            },
+            {
+                "answer": "Cages.",
+                "correct": true,
+                "feedback": "Correct.  Depending on how you designed your experiment, the cage environment could introduce a batch effect.  Using a randomized cohousing strategy during the experimental design may help alleviate this effect."
+            },
+            {
+                "answer": "Geographical Location.",
+                "correct": true,
+                "feedback": "Correct.  Even if two laboratories are using the exact same protocols, batch effects can still be introduced based upon a variety of factors."
+            },
+            {
+                "answer": "Time.",
+                "correct": true,
+                "feedback": "Correct.  In this particular experiment, the batch effect from taking samples at different time points may be minimal, but in other experiments it could be significant.  Unless time is a relevant covariate, you should try to take the samples in the same general time frame to minimize time-based environmental effects."
+            }
+        ]
+    },
+    {
+        "question": "The following is true of PCA:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "It's a dimensionality reduction technique.",
+                "correct": true,
+                "feedback": "Correct.  PCA projects the data on to principle components defined by the variance of the data, with most of the variance accounted for in the first few PC's."
+            },
+            {
+                "answer": "It's a clustering technique.",
+                "correct": false,
+                "feedback": "Incorrect.  Sort of.  While data points with similar profiles do tend to congregate in PCA, this is a side effect of the PCA method.  Clustering methods explicitly assign data points to groups based on shared properties.  However, PCA is often used in conjunction with clustering methods such as k-means to improve clustering."
+            },
+            {
+                "answer": "Principle components are defined by the variability in the data.",
+                "correct": true,
+                "feedback": "Correct.  The principle components are defined by the variability in the data, with the PC's arranged in order of decreasing variability."
+            },
+            {
+                "answer": "PCA is a special case of MDS.",
+                "correct": true,
+                "feedback": "PCA is MDS applied to Euclidean distances."
+            }
+        ]
+    }
+]

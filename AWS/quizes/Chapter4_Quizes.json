@@ -1,0 +1,155 @@
+[
+    {
+        "question": "The following descriptive statistics included in a box plot:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "median",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "mean",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "mode",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "minimum value",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "maximum value",
+                "correct": true,
+                "feedback": "Correct."
+            },
+                        {
+                "answer": "standard deviation",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "outlier values",
+                "correct": true,
+                "feedback": "Correct."
+            }
+        ]
+    },
+    {
+        "question": "The following are dimensionality reduction methods:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "heatmap",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "box plot",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "principle components analysis",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "tSNE",
+                "correct": true,
+                "feedback": "Correct."
+            },
+                        {
+                "answer": "k-means clustering",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+                        {
+                "answer": "factor analysis",
+                "correct": true,
+                "feedback": "Correct."
+            }
+        ]
+    },
+    {
+        "question": "The following are properties of PCA",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "principle components represent the mean values of each cluster.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "principle components represent decreasing levels of variance in the data.",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "principle components are linear combinations of the observed variables.",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "principle components are nonlinear combinations of the observed variables.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "the transformed data points in a PCA plot have biological meaning.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "all of the principle components are necessary for data visualization.",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    },
+    {
+        "question": "In k-means clustering:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "the centroid has no meaning.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "the centroid represents the mean of a cluster.",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "all clusters share the same centroid.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "the number of clusters are determined by the algorithm.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "the number of optimal clusters can be determined by an elbow plot.",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "uses hierarchical clustering for the first iteration.",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    }
+]

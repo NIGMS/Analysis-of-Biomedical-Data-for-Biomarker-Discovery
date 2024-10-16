@@ -1,0 +1,83 @@
+[
+    {
+        "question": "Homoscedasticity indicates:",
+        "type": "multiple_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Equal variance in each group.",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "A mean of 0 for your data.",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Equal standard deviation in each group.",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "The correlation coefficient between two variables equals 1.",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    },
+    {
+        "question": "Based on the examples above, what is our hypothesis for treprostinil treatment?",
+        "type": "multiple_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Trep treated samples will approximate the control samples.",
+                "correct": true,
+                "feedback": "Correct.  While it's unlikely that any treatment can completely reverse IRI, the hypothesis is that trep treatment will cause a shift from the injured state towards the healthy state."
+            },
+            {
+                "answer": "Trep treated samples will approximate the placebo samples.",
+                "correct": false,
+                "feedback": "Incorrect.  If trep treatment shows no change from the placebo state, then that would indicate no effect from the treatment or a generic placebo effect."
+            },
+            {
+                "answer": "Trep treated samples will approximate the injured (untreated) samples.",
+                "correct": false,
+                "feedback": "Incorrect.  This would be our null hypothesis that trep treatment has no effect on IRI."
+            },
+            {
+                "answer": "Trep treated samples will approximate the sham samples.",
+                "correct": false,
+                "feedback": "Technically Incorrect.  The sham treatment is designed to test for effects resulting solely from surgical treatment without inducing IRI.  If there is no effect, we would expect the sham samples to approximate the healthy samples, but comparing trep treated and sham samples doesn't tell us much except that we might have to account for a sham effect in the trep treated and injured samples."
+            }
+        ]
+    },
+    {
+        "question": "Consider the following hypothetical scenario: During a pilot study on renal IRI in mouse, the researcher notices a higher variability in the samples than expected and suspects a gender affect might be involved.  Specifically, the researcher believes that trep treatment has a greater effect in female mice than male mice.  What is the best method to test this hypothesis?",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Linear regression adding gender as a covariate.",
+                "correct": true,
+                "feedback": "Correct.  Adding gender as a covariate will indicate if there is a significant effect between male and female mice."
+            },
+            {
+                "answer": "Linear regression using a mixed model with gender as a random effect.",
+                "correct": false,
+                "feedback": "Incorrect.  We would use this model if we wanted to remove the gender effect from consideration, i.e. what is the effect of trep treatment independent of gender?  We could also add gender as a covariate in a multiple linear regression model and just ignore it."
+            },
+            {
+                "answer": "Logistic regression using gender as a binary variable.",
+                "correct": false,
+                "feedback": "Incorrect.  Logistic regression works best for binary classification.  While gender in this case could be modeled as a binary variable, we're not actually trying to classify our samples."
+            },
+            {
+                "answer": "ANOVA",
+                "correct": true,
+                "feedback": "Correct with a caveat.  ANOVA and linear regression are ways at looking at the same math from slightly different perspectives.  We could reformulate our hypothesis to be more ANOVA friendly by asking 'Is there a significant difference in the means of the treatment groups accounting for gender?'.  In this particular case though, it might be more intuitive to run the regression model instead.  You can always convert the results to ANOVA format."
+            }
+        ]
+    }
+]

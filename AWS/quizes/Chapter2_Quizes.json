@@ -1,0 +1,103 @@
+[
+    {
+        "question": "Which of the following R data structures are homogeneous:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Vector",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Matrix",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Array",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "List",
+                "correct": false,
+                "feedback": "Incorrect.  A list can contain any type of data."
+            },
+            {
+                "answer": "Data Frame",
+                "correct": false,
+                "feedback": "Incorrect.  A column of a data frame can be of any data type, but the data within a given column must be of the same type."
+            },
+                        {
+                "answer": "Tibble",
+                "correct": false,
+                "feedback": "Incorrect.  A tibble is a modified data frame."
+            }
+        ]
+    },
+    {
+        "question": "Which if the following is true of a matrix?",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "2-dimensional",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Homogeneous",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "1-dimensional",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "Heterogeneous",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+                        {
+                "answer": "Must be a square",
+                "correct": false,
+                "feedback": "Incorrect.  The matrix can have unequal dimensions."
+            },
+                        {
+                "answer": "Is an array",
+                "correct": true,
+                "feedback": "Correct.  A matrix is a special type of array."
+            }
+        ]
+    },
+    {
+        "question": "When working with data frames, you must be cautious because:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "If different data types exist in the data frame, all data will be coerced to a single type.",
+                "correct": false,
+                "feedback": "Incorrect.  A data frame is a heterogeneous data structure."
+            },
+            {
+                "answer": "If a given column contains different data types, all data within that column will be coerced to a single data type.",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Missing data will be thrown out.",
+                "correct": false,
+                "feedback": "Incorrect.  R can account for missing data."
+            },
+            {
+                "answer": "R may become confused if your imported input files are not well-formatted.",
+                "correct": true,
+                "feedback": "Correct.  Beware of Excel."
+            }
+        ]
+    }
+]

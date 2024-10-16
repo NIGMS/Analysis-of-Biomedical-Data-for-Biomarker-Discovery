@@ -1,0 +1,83 @@
+[
+    {
+        "question": "Ischaemia is caused by:",
+        "type": "multiple_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Restriction of blood flow to a part of the body.",
+                "correct": true,
+                "feedback": "Correct.  In the case of renal IRI, ischaemia results from removal of the kidney from the donor."
+            },
+            {
+                "answer": "Restoration of oxygenated blood flow following a period of restructed blood flow.",
+                "correct": false,
+                "feedback": "Incorrect.  The restoration of blood flow is reperfusion."
+            },
+            {
+                "answer": "Depletion of cellular ATP levels.",
+                "correct": false,
+                "feedback": "Incorrect.  Depletion of cellular ATP levels is an effect of reduced blood flow."
+            },
+            {
+                "answer": "Inflammation.",
+                "correct": false,
+                "feedback": "Incorrect.  Inflammation is an effect of IRI."
+            }
+        ]
+    },
+    {
+        "question": "Which of the following biomarkers indicate acute kidney injury?",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Serum Creantinine",
+                "correct": true,
+                "feedback": "Correct.  SCr is a classic biomarker for kidney injury."
+            },
+            {
+                "answer": "Bilirubin",
+                "correct": false,
+                "feedback": "Incorrect.  Bilirubin is an indicator of liver health."
+            },
+            {
+                "answer": "Blood Glucose",
+                "correct": false,
+                "feedback": "Incorrect.  Blood glucose can lead to kidney damage but does not itself necessarily indicate kidney injury."
+            },
+            {
+                "answer": "Blood Urea Nitrogen",
+                "correct": true,
+                "feedback": "Correct.  BUN is a classic biomarker for kidney injury."
+            }
+        ]
+    },
+    {
+        "question": "Treprostinil is an analog of what compound?",
+        "type": "multiple_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Prostacyclin",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Chloesterol",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "Isoflavone",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "Isopentenyl diphosphate",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    }
+]
