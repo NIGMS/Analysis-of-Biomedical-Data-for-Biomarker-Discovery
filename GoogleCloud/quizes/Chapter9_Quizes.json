@@ -1,0 +1,110 @@
+[
+    {
+        "question": "The following are true of machine learning:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "is a subset of artificial intelligence.",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "is a subset of deep learning.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "utilizes only supervised learning.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "can utilize either supervised or unsupervised learning.",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "can only learn if explicitly programmed to do so.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+                        {
+                "answer": "can learn without being explicitly programmed to do so.",
+                "correct": true,
+                "feedback": "Correct."
+            }
+        ]
+    },
+    {
+        "question": "Consider the following experiment: We have performed shotgun metagenomic sequencing of a microbial community.  Each sequence read represents a fragment from an individual organism.  Individual species will have unique sequence properties based on their location within the phylogenetic tree of life (i.e. more closely related species will have more similar genomic profiles).  We want to bin the reads based on these genomic properties, that is, we want to group reads with similar genomic properties.  However, we have no reference genomes to compare the to the reads.  What type of learning process would we use to bin these reads?",
+        "type": "multiple_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Supervised",
+                "correct": false,
+                "feedback": "Incorrect.  We have no basis for defining a training set."
+            },
+            {
+                "answer": "Unsupervised",
+                "correct": true,
+                "feedback": "Correct.  We can cluster the reads based on some criteria that compares genomic signatures (e.g. tetranucleotide frequencies)."
+            }
+        ]
+    },
+    {
+        "question": "In a decision tree model, a decision node:",
+        "type": "multiple_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "is the base of the decision tree.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "is a sub-node at the end of the tree (i.e. no more decisions to make).",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "is a sub-node where an action occurs resulting in additional sub-nodes.",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "a subnode unconnected to other subnodes",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    },
+        {
+        "question": "A support vector machine:",
+        "type": "multiple_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "tests multiple decision trees at once.",
+                "correct": false,
+                "feedback": "Incorrect.  This is a random forest."
+            },
+            {
+                "answer": "identifies a hyperplane between clusters.",
+                "correct": true,
+                "feedback": "Correct.  An SVM works well for binary classification"
+            },
+            {
+                "answer": "is the same as a neural network.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "tests multiple decision trees one at a time and compares them.",
+                "correct": false,
+                "feedback": "Incorrect.  This is a gradient boost machine."
+            }
+        ]
+    }
+]

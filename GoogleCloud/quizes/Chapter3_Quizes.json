@@ -1,0 +1,231 @@
+[
+    {
+        "question": "The dot product of two vectors is:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "the sum of the products of the corresponding elements of the vectors",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "a matrix",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "a scalar",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "related to the angle between the vectors in Cartesian space",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "the result of matrix addition",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+                        {
+                "answer": "the sum of the magnitudes of the two vectors",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "a vector",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    },
+    {
+        "question": "An identity matrix:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "is an n x n square matrix",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "is an m x n matrix",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "is composed only of 0's",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "has a left-to-right diagonal of 1's and all other values 0",
+                "correct": true,
+                "feedback": "Correct."
+            },
+                        {
+                "answer": "has a right-to-left diagonal of 1's and all other values 0",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+                        {
+                "answer": "cannot be transposed",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    },
+    {
+        "question": "Matrix multiplication is:",
+        "type": "multiple_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "impossible",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "possible but only for square matrices",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "possible but only when multiplying an m x p matrix with a p x n matrix",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "possible but only for identity matrices",
+                "correct": false,
+                "feedback": "Inorrect."
+            }
+        ]
+    },
+    {
+        "question": "For the equation y = bx + a:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "y is the dependent variable and x is the independent variable",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "y is the independent variable and x is the dependent variable",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "b is the slope, a is the intercept",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "a is the slope, b is the intercept",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    },
+    {
+        "question": "The following methods fall under the General Linear Model:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Linear regression",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Logistic regression",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "ANOVA",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "t-test",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Non-linear regression",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    },  
+    {
+        "question": "The link function for logistic regression is:",
+        "type": "multiple_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "logit",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "identity",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "probit",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "log",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "inverse squared",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    },
+    {
+        "question": "For a ROC curve, an AUC value of ___ is considered good.",
+        "type": "multiple_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "> 0.5",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "< 0.5",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "0",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "= 1",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "> 1",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
