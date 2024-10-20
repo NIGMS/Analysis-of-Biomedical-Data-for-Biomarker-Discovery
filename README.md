@@ -16,11 +16,9 @@ Image from https://doi.org/10.3389/fpsyt.2020.00432
 + [Introduction](#introduction)
 + [Overview](#overview)
 + [Software Requirements](#software-requirements)
-+ [Installing the Module](#installing-the-module)
-+ [Workflow](#workflow)
 + [Data](#data)
-+ [Troubleshooting](#troubleshooting)
 + [Funding](#funding)
++ [License for Data](#license-for-data)
 
 ## Introduction
 
