@@ -3,15 +3,14 @@
 + [Overview](#overview)
 + [Getting Started](#getting-started)
 + [Software Requirements](#software-requirements)
-+ [Selecting your Google Cloud Platform Project](#selecting-your-google-cloud-platform-project)
 + [Creating a notebook instance](#creating-notebook-instance)
-+ [Downloading Tutorial Files](#downloading-tutorial-files)
++ [Running Tutorial Files](#running-tutorial-files)
 + [Workflow](#workflow)
 + [Troubleshooting](#troubleshooting)
 
 
 
-The data used in this module is stored in a Google Cloud bucket and does require using `gsutil` commands to download the data sets.  R packages used will be downloaded from within each notebook.
+The data used in this module is stored in an AWS S3 bucket and does require using `aws s3 cp` command to download the data sets.  R packages used will be downloaded from within each notebook.
 
 ## Overview
 
@@ -39,26 +38,17 @@ This module employs Jupyter Notebooks running R 4.2 using Bioconductor for bioin
 
 Jupyter Notebooks are run through your browser and have the file extension *ipynb*.  Activate the notebook by double-clicking the file name and it will automatically open in your browser. Each notebook consists of markdown and code cells.  Markdown cells are for text and figures and are there to guide you through the chapters.  Code cells can be run by clicking the play arrow at the top of the screen or by hitting CTRL-ENTER.  The code will run within the notebook and generate the appropriate output.  You may freely change the code and re-run the block as often as you like.  This is useful if you want to test different analysis models or modify figures. 
 
-## Selecting your Google Cloud Platform Project
-
-The below steps guide you through setting up a virtual machine on Google Cloud Platform, downloading the module files, and launching the notebooks. You will need a Google account and access to a Google Cloud Platform Project.
-
-Once you have these, you can begin by first navigating to https://console.cloud.google.com/ and logging in with your credentials. Use the following [instructions](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/open_project_intramural.md) to open a GCP project.
-
-
 ## Creating a notebook instance 
 
-Follow the steps highlighted [here](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md) to create a new notebook instance in Vertex AI. Follow steps 1-8 and be especially careful to enable idle shutdown as highlighted in step 7. For this module you should select Debian 10 and R 4.2 in the Environment tab in step 5. In step 6 in the Machine type tab, select n1-standard-4 from the dropdown box.
+Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) to create a new notebook instance in Amazon SageMaker. 
 
-## Downloading Tutorial Files
++ In step 4, select ml.m5.xlarge from the dropdown box as the notebook instance type and be especially careful to **enable idle shutdown**.
 
-Now that you have created your virtual machine, and are in the JupyterLab screen, you will need to download the module content.  The easiest way to do this is to clone the repository directly for the NIGMS Github. This can be done by opening a terminal in your JupyterLab environment (click the blue box with the white plus sign in the upper right corner and click the "Terminal" icon in the Launcher menu which comes up) and running the command `git clone https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery.git`. 
++ In step 7, after creating a notebook instance and being in JupyterLab screen you will need to download the module content. The easiest way to do this is to clone the repository directly for the NIGMS Github. This can be done by clicking on git symbol in your JupyterLab environment and pasting the following URL `https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery.git`. This should download our repo, and the tutorial files inside, into a folder called 'Analysis-of-Biomedical-Data-for-Biomarker-Discovery'. Double click this folder now. Inside you will find all of the tutorial files, which you can double click and run. You should also see a data file that contains the biomarker and proteomic data to be analyzed.
 
-This should download our repo, and the tutorial files inside, into a folder called 'Analysis-of-Biomedical-Data-for-Biomarker-Discovery'. Double click this folder now. Inside you will find all of the tutorial files, which you can double click and run. You should also see a data file that contains the biomarker and proteomic data to be analyzed.
++ When you are finished running code, to prevent unneeded billing stop your notebook as it is illustrated in step 9.
 
-Note, when you are finished running code, you should turn off your virtual machine to prevent unneeded billing or resource use by checking your notebook and pushing the **STOP** button.
-
-### Running Tutorial Files
+## Running Tutorial Files
 
 All our tutorial workflows are Jupyter format. To run them you need only to double click the tutorial file you want.
 
@@ -77,7 +67,7 @@ Jupyter is a powerful tool, with many useful features. For more information on h
 Below is the general workflow and GCP architecture of the module. We start by creating our experimental object (in our case, an R list data structure) from processed biomarker and proteomic data.  We then add metadata (i.e., data about the samples) and optional additional data (e.g. genome and annotation files, if we were using transcriptome data) appropriate to the experiment.  We can will save this object and reload it, add to it, and save it in subsequent notebooks.  It's important to run the notebooks in order to ensure that the experimental object is properly updated.  The next step will be analysis of known clinical biomarkers to each other using linear and logistic regression methods common in the clinical literature.  Once these methods are learned using known biomarkers, they can then be applied to newly discovered potential biomarkers. The next two notebooks will cover exploratory and differential analysis of proteomics data to identify new potential biomarkers.  We will look at how to normalize proteomics data, how batch effects can complicate data analysis and how to correct for them, and how to identify potential biomarkers by identifying proteins whose expression differs significantly between healthy and injured states. The final notebooks will cover background information on R data structures, the use of linear models in bioinformatics data analysis, principles of exploratory analysis, and how the methods covered in this module can be extended to machine learning methods for automated biomarker discovery.
 
 ![Workflow](images/uri_nosi_workflow.png)
-![Architecture](images/URI_TID.png)
+![Architecture](images/aws-workflow.png)
 
 ## Troubleshooting
 
