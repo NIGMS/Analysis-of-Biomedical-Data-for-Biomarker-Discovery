@@ -4,7 +4,7 @@
 + [Getting Started](#getting-started)
 + [Software Requirements](#software-requirements)
 + [Selecting your Google Cloud Platform Project](#selecting-your-google-cloud-platform-project)
-+ [Creating a notebook instance](#creating-notebook-instance)
++ [Creating a notebook instance with R kernel](#creating-notebook-instance)
 + [Downloading Tutorial Files](#downloading-tutorial-files)
 + [Workflow](#workflow)
 + [Troubleshooting](#troubleshooting)
@@ -46,9 +46,9 @@ The below steps guide you through setting up a virtual machine on Google Cloud P
 Once you have these, you can begin by first navigating to https://console.cloud.google.com/ and logging in with your credentials. Use the following [instructions](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/open_project_intramural.md) to open a GCP project.
 
 
-## Creating a user managed notebook 
+## Creating a notebook instance with R kernel 
 
-Follow the steps highlighted [here](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md) to create a new user-managed notebook in Vertex AI. Follow steps 1-8 and be especially careful to enable idle shutdown as highlighted in step 7. For this module you should select Debian 10 and R 4.2 in the Environment tab in step 5. In step 6 in the Machine type tab, select n1-standard-4 from the dropdown box.
+Follow the steps highlighted in the second part (2. Spin up Instance from a Container) of [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md) to create a new notebook instance in Vertex AI. Follow steps 1-8 and be especially careful to use custom container in step 4. You need to use `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/vertex-test@sha256:24c73d00005bc323a13e70f6a080f0cecbad4c04ee927270e0eedd621bb6019e` container. In step 6 in the Machine type tab, select n1-standard-4 from the dropdown box.
 
 ## Downloading Tutorial Files
 
