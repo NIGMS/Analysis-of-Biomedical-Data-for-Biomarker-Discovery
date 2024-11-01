@@ -46,6 +46,8 @@ Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/
 
 + In step 7, after creating a notebook instance and being in JupyterLab screen you will need to download the module content. The easiest way to do this is to clone the repository directly for the NIGMS Github. This can be done by clicking on git symbol in your JupyterLab environment and pasting the following URL `https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery.git`. This should download our repo, and the tutorial files inside, into a folder called 'Analysis-of-Biomedical-Data-for-Biomarker-Discovery'. Double click this folder now. Inside you will find all of the tutorial files, which you can double click and run. You should also see a data file that contains the biomarker and proteomic data to be analyzed.
 
++ In step 8, you select a Kernel to for the notebook. Please select R for this module. 
+
 + When you are finished running code, to prevent unneeded billing stop your notebook as it is illustrated in step 9.
 
 ## Running Tutorial Files
