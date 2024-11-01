@@ -48,7 +48,7 @@ Once you have these, you can begin by first navigating to https://console.cloud.
 
 ## Creating a notebook instance with R kernel 
 
-Follow the steps highlighted in the second part (2. Spin up Instance from a Container) of [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md) to create a new notebook instance in Vertex AI. Follow steps 1-8 and be especially careful to use custom container in step 4. You need to use `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/vertex-test@sha256:24c73d00005bc323a13e70f6a080f0cecbad4c04ee927270e0eedd621bb6019e` container. In step 6 in the Machine type tab, select n1-standard-4 from the dropdown box.
+Follow the steps highlighted in the second part (2. Spin up Instance from a Container) of [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md) to create a new notebook instance in Vertex AI. Follow steps 1-8 and be especially careful to use custom container in step 4. You need to use `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/vertex-test` container. In step 6 in the Machine type tab, select n1-standard-4 from the dropdown box.
 
 ## Downloading Tutorial Files
 
