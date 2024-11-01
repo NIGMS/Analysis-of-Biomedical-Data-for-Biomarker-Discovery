@@ -48,7 +48,7 @@ Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/
 
 + In step 8, you select a Kernel for the notebook. Please select R for this module. 
 
-+ When you are finished running code, to prevent unneeded billing stop your notebook as it is illustrated in step 9.
++ When you are finished running code, stop your notebook to prevent unneeded billing as illustrated in step 9.
 
 ## Running Tutorial Files
 
