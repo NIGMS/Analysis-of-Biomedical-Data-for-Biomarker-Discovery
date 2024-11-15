@@ -1,0 +1,150 @@
+[
+    {
+        "question": "Which of the following are quantitative biomarkers?",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Inosine-5'-Monophosphate Dehydrogenase [IMPDH] Activity",
+                "correct": true,
+                "feedback": "Correct.  IMPDH enzyme activity can be quantitatively measured."
+            },
+            {
+                "answer": "Association of Single Nucleotide Polymorphisms with Known Biomarkers of Alzheimer's Disease",
+                "correct": true,
+                "feedback": "Correct.  The abundance of the SNP can be measured in the population and associated with AD through genome-wide association studies (GWAS)"
+            },
+            {
+                "answer": "Visual Observation of Potential Melanoma",
+                "correct": false,
+                "feedback": "Incorrect.  Visual observation of potential skin cancer may suggest that additional tests are necessary."
+            },
+            {
+                "answer": "Single Cell Transcriptomics Analysis of Leukocytes",
+                "correct": true,
+                "feedback": "Correct.  While specific transcriptomic biomarkers may be observed, the general pattern of transcription may also indicate a change in state."
+            },
+            {
+                "answer": "Discoloration of Eyes and Skin.",
+                "correct": false,
+                "feedback": "Incorrect.  Chronic discoloration may indicate disease but are not themselves quantitative."
+            }
+        ]
+    },
+    {
+        "question": "Which of the following biomarkers are part of a standard blood test?",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "High-Density/Low-Density Lipoproteins",
+                "correct": true,
+                "feedback": "Correct.  HDL/LDL are the classic cholesterol biomarkers."
+            },
+            {
+                "answer": "Bilirubin",
+                "correct": true,
+                "feedback": "Correct.  Bilirubin is an indicator of liver health."
+            },
+            {
+                "answer": "Tau Protein",
+                "correct": false,
+                "feedback": "Incorrect.  Tau protein is a biomarker of Alzheimer's Disease but is not part of a standard blood test."
+            },
+            {
+                "answer": "Thyroid-Stimulating Hormone",
+                "correct": true,
+                "feedback": "Correct.  Thyroid-stimulating hormone is an indicator of thyroid health."
+            },
+            {
+                "answer": "BRC1A Polymorphism rs799917",
+                "correct": false,
+                "feedback": "Incorrect.  SNP's are not typically measured as part of a standard blood test except in specific cases."
+            },
+                        {
+                "answer": "Platelets",
+                "correct": true,
+                "feedback": "Correct.  The abundance of different types of blood cells are the primary biomarkers measured in a standard blood test."
+            }
+        ]
+    },
+    {
+        "question": "Variations in the APOE gene can indicate a predisposition to Alzheimer's disease.  Based on the BEST Glossary, what type(s) of biomarker is such a variant?",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Susceptibility/Risk",
+                "correct": true,
+                "feedback": "Correct.  APOE variants do not in and of themselves indicate the patient will get AD but they do indicate increased risk."
+            },
+            {
+                "answer": "Diagnostic",
+                "correct": false,
+                "feedback": "Incorrect.  While APOE variants can be used for diagnosis, in this particular case, the disease has not yet developed."
+            },
+            {
+                "answer": "Monitoring",
+                "correct": false,
+                "feedback": "Incorrect.  While the protein product of APOE (apolipiprotein E) could be used as a monitoring biomarker, the gene variants themselves will not change over the course of the disease."
+            },
+            {
+                "answer": "Prognostic",
+                "correct": true,
+                "feedback": "Correct.  The specific variants present may indicate the severity of the AD that might develop."
+            },
+            {
+                "answer": "Predictive",
+                "correct": true,
+                "feedback": "Correct.  The specific variant may indicate how a patient with the variant who develops AD might respond to a treatment compared to a patient without the variant."
+            },
+            {
+                "answer": "Response",
+                "correct": false,
+                "feedback": "Incorrect.  The variant will not change in response to treatment and thus gives no indication on the effect of the treatment."
+            },
+            {
+                "answer": "Safety",
+                "correct": false,
+                "feedback": "Incorrect.  The variant will not change in response to treatment and thus cannot indicate toxic effects of the treatment."
+            }
+        ]
+    },
+        {
+        "question": "In a transcriptomics analysis of stomach cancer, you identify 30 genes that are significantly upregulated in cancer cells.  Can these transcripts be used as clinical biomarkers?",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Yes.  The high correlation of the transcripts with disease states and low p-values indicate that they are good biomarkers.",
+                "correct": false,
+                "feedback": "Incorrect.  While your assumption may turn out to be true, statistical significance and correlation are not definitive proof that the transcripts are directly related to the disease state."
+            },
+            {
+                "answer": "Yes.  The transcripts are biologically relevant based on pathway analysis.",
+                "correct": false,
+                "feedback": "Incorrect.  While the transcripts may be biological relevant, they may not be practical as biomarkers."
+            },
+            {
+                "answer": "No.  The pathway analysis indicates no obvious biological rationale for the transcript expression.",
+                "correct": false,
+                "feedback": "Incorrect.  Your assumption may be correct that the observed effect is an indirect correlation.  However, you cannot rule out a novel direct effect without further verification."
+            },
+            {
+                "answer": "No.  Transcripts are bad biomarkers.",
+                "correct": false,
+                "feedback": "Incorrect.  A transcript is a perfectly valid biomarker, but as with any biomarker, its properties will determine its utility as a biomarker."
+            },
+            {
+                "answer": "Maybe.  Additional experimental tests such as qPCR are necessary.",
+                "correct": true,
+                "feedback": "Correct.  Biomarkers discovered through omics-based analysis should always be experimentally validated."
+            },
+            {
+                "answer": "Maybe.  That's for the clinicians and engineers to figure out.",
+                "correct": true,
+                "feedback": "Correct.  While your biomarkers may be statistically and biologically significant, a useful clinical biomarker must be practical in a clinical setting."
+            }
+        ]
+    },
+]

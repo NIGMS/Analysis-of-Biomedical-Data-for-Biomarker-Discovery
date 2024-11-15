@@ -1,0 +1,93 @@
+[
+    {
+        "question": "A volcano plot:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "compares p-value with fold change.",
+                "correct": true,
+                "feedback": "Correct.  The volcano plot is used to identify statistically significant differences in protein levels."
+            },
+            {
+                "answer": "fold change versus mean expression.",
+                "correct": false,
+                "feedback": "Incorrect.  An MA plot measures fold change vs. mean expression."
+            },
+            {
+                "answer": "Compares two conditions.",
+                "correct": true,
+                "feedback": "Correct.  The left and right sides of the plot indicate the different conditions."
+            },
+            {
+                "answer": "is a clustering algorithm.",
+                "correct": false,
+                "feedback": "Incorrect.  A volcano plot does not cluster data."
+            }
+        ]
+    },
+    {
+        "question": "The fanning effect in an MA plot is caused by:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "the fact that low expression features tend to be more variable in fold change than high expression features.",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "the fact that high expression features tend to be more variable in fold change than low expression features.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "Most features show no expression.",
+                "correct": false,
+                "feedback": "Incorrect.  The MA plot shows this observation to be true but it's not responsible for the fanning effect."
+            },
+            {
+                "answer": "outliers in the data.",
+                "correct": false,
+                "feedback": "Incorrect.  Outliers might increase the rate of false positives but are not responsible for the fanning effect."
+            }
+        ]
+    },
+    {
+        "question": "The following methods may be used following an omics analysis to confirm the biological significance of your results:",
+        "type": "many_choice",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "answer": "Pathway analysis",
+                "correct": true,
+                "feedback": "Correct.  Pathway analysis will present your results from a biological network perspective, providing additional biological context to your results.."
+            },
+            {
+                "answer": "Meta-analysis",
+                "correct": true,
+                "feedback": "Correct.  Properly comparing results across laboratories can increase the statistical power of your results."
+            },
+            {
+                "answer": "Experimental validation",
+                "correct": true,
+                "feedback": "Correct.  Experimental validation of omics results ensures that you aren't observing computational artifacts from your data analysis."
+            },
+            {
+                "answer": "Logistic regression",
+                "correct": false,
+                "feedback": "Incorrect.  While logistic regression and classification might be relevant to your research, it does not provide additional biological context to your results."
+            },
+            {
+                "answer": "PCA",
+                "correct": false,
+                "feedback": "Incorrect.  While PCA can identify which features are likely driving patterns in your data, it does not give you a verified biological reason why."
+            },
+            {
+                "answer": "Machine learning",
+                "correct": false,
+                "feedback": "Incorrect.  Sophisticated ML algorithms may have high accuracy when predicted results, but in and of themselves to not provide biological validation."
+            }
+        ]
+    }
+]
