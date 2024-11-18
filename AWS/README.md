@@ -8,7 +8,7 @@
 + [Workflow](#workflow)
 + [Troubleshooting](#troubleshooting)
 
-
+---
 
 The data used in this module is stored in an AWS S3 bucket and does require using `aws s3 cp` command to download the data sets.  R packages used will be downloaded from within each notebook.
 
