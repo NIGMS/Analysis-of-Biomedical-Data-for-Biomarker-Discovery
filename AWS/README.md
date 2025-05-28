@@ -78,3 +78,20 @@ R packages, particularly those from BioConductor, often have many dependencies (
 If you get an error during package installation, it could be that R is trying to install a version of the package that is not compatible with the version of R you are using.  When you create your VM's to run this module, always use the latest version of R available (4.2 at the time of this writing).  Another common error is that a code block fails because the required package wasn't loaded.  All packages are loaded at the top of the notebook so double check that there are no errors there.
 
 Necessary R packages will be loaded in each submodule.  When we begin working with experimental data, we will build an experimental object which will be reloaded and extended in later modules.  It's important that submodules 5-9 be run in order (at least the first time) to ensure that the experimental data is loading correctly. 
+
+## Bedrock (Optional)
+
+Generative AI is available for this tutorial if you would like to use it. To run it, please reference Submodule 1, or run the following code within a submodule notebook.
+
+```!pip install -q ipywidgets
+import sys
+import os
+util_path = os.path.join(os.getcwd(), 'util')
+if util_path not in sys.path:
+    sys.path.append(util_path)
+
+# Import the display_widgets function from your Python file
+from genai import display_widgets
+
+# Call the function to display the widgets
+display_widgets()
