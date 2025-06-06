@@ -1,15 +1,13 @@
-![course-card](images/URI-course-card-2.png)
-Image from https://doi.org/10.3389/fpsyt.2020.00432
-
-
-
----
-
-
 # Analysis of Biomedical Data for Biomarker Discovery
 ## Dr. Christopher L. Hemme
 ## Director, [RI-INBRE Molecular Informatics Core](https://web.uri.edu/riinbre/mic/)
 ## The University of Rhode Island College of Pharmacy
+
+<br>
+<p align="center">
+    <img src="images/URI-course-card-2.png" width="400" />
+</p>
+Image from https://doi.org/10.3389/fpsyt.2020.00432
 
 ## Contents
 
